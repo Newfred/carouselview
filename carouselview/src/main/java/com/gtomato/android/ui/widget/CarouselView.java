@@ -186,7 +186,7 @@ public class CarouselView extends RecyclerView {
 		throw new UnsupportedOperationException("setLayoutManager(CarouselLayoutManager) is not yet supported.");
 	}
 
-	private void setLayoutManagerInternal(CarouselLayoutManager layout) {
+	public void setLayoutManagerInternal(CarouselLayoutManager layout) {
 		if (layout == null) {
 			throw new NullPointerException("CarouselLayoutManager cannot be null");
 		}
